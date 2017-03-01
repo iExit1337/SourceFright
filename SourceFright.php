@@ -59,7 +59,7 @@ class SourceFright {
 	private function writeSafeSource(array $indexes, $template) {
 		
 		$script = require_once "SourceFright.tpl.php";
-		$html = str_replace(self::ID_PUT_JS_CODE, $script, $template);
+		$html = str_replace(self::ID_PUT_JS_CODE, $script, str_replace(["\n", "\r"], "", $template));
 		echo $html;
 	}
 
