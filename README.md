@@ -22,4 +22,4 @@ $sf->end();
 - PROFIT!
 
 # Important
-Don't put any ```<script>```-tags in your the ```<body>``` tag, they won't be executed!
+Don't put any ```<script>```-tags in the ```<body>``` tag, they won't be executed!
